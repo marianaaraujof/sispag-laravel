@@ -22,3 +22,7 @@ Route::get('/formulario', function () {
 Route::get('/folhasalarial', function () {
     return view('folhasalarial');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
