@@ -32,7 +32,7 @@
         </div>
       
         <div class="container-fluid bg-info">
-          <form action="../controller/LoginFormularioController.php" method= "POST">
+          <form action="/formulario" method= "POST">
             <div class="row bg-info">
                 <div class="col-sm"><br /><br /><br /></div>
         </div> 
