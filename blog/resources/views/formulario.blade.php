@@ -37,7 +37,7 @@
   </div>
   
   <div class="container-fluid bg-info"> 
-    <form name="Folha de pagamento" method="POST" action="../controller/FormularioFuncionarioController.php">
+    <form name="Folha de pagamento" method="POST" action="route('calculosalarial.index')">
       
       <div class="row bg-info">
         <div class="col-sm"></div>
