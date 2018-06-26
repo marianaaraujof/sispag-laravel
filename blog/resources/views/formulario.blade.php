@@ -1,3 +1,4 @@
+{{csrf_field()}}
 <!DOCTYPE html>
 <html lang="pt-br">
 
