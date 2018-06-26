@@ -12,12 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('login');
-});
-
-Route::get('/formulario', function () {
     return view('formulario');
 });
+
 
 Route::get('/folhasalarial', function () {
     return view('folhasalarial');
