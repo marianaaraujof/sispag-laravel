@@ -20,6 +20,4 @@ Route::get('/folhasalarial', function () {
     return view('folhasalarial');
 });
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/calculoSalarial', 'FormularioController@index')->name('calculosalarial.index');
