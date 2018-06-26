@@ -21,3 +21,4 @@ Route::get('/folhasalarial', function () {
 });
 
 Route::post('/calculoSalarial', 'FormularioController@index')->name('calculosalarial.index');
+?>
