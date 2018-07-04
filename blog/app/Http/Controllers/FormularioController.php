@@ -8,5 +8,5 @@ class FormularioController extends Controller
 {
     public function index() {
         dd ('oi');
-}
+    }
 }

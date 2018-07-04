@@ -44,7 +44,7 @@
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">CPF: </div>
- 			<div class="col-sm-6 float-left"><?php echo $_SESSION['dados']['_cpf']; ?> </div>
+ 			<div class="col-sm-6 float-left"><?php echo $_cpf; ?> </div>
  		</div>
  		
  		<div class="row bg-info">
@@ -54,7 +54,7 @@
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Funcionário:</div>
- 			<div class="col-sm-6 float-left"> <?php echo $_SESSION['dados']['_funcionario']; ?> </div>
+ 			<div class="col-sm-6 float-left"> <?php echo $_funcionario; ?> </div>
  		</div>
  		
  		<div class="row bg-info">
@@ -64,7 +64,7 @@
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Idade:</div>
- 			<div class="col-sm-6 float-left"><?php echo $_SESSION['dados']['_idade']; ?> anos </div>
+ 			<div class="col-sm-6 float-left"><?php echo $_idade; ?> anos </div>
  		</div>
  		
  		<div class="row bg-info">
@@ -74,7 +74,7 @@
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Salário base:</div>
- 			<div class="col-sm-6 float-left"> R$ <?php echo $_SESSION['dados']['_salariobase'];?> </div>
+ 			<div class="col-sm-6 float-left"> R$ <?php echo $_salariobase;?> </div>
  		</div>
  		
  		<div class="row bg-info">
@@ -84,7 +84,7 @@
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Salário família: </div>
- 			<div class="col-sm-6 float-left"> R$ <?php echo $_SESSION['dados']['_salarioFamilia']; ?></div>
+ 			<div class="col-sm-6 float-left"> R$ <?php echo $_salarioFamilia; ?></div>
  		</div>
  		
  		<div class="row bg-info">
@@ -94,7 +94,7 @@
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Abono:</div>
- 			<div class="col-sm-6 float-left"> R$ <?php echo $_SESSION['dados']['_calculaAbono'];  ?></div>
+ 			<div class="col-sm-6 float-left"> R$ <?php echo $_calculaAbono;  ?></div>
  		</div>
  		
  		<div class="row bg-info">
@@ -104,7 +104,7 @@
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Salário bruto:</div>
- 			<div class="col-sm-6 float-left">R$ <?php echo $_SESSION['dados']['_salarioBruto']; ?></div>
+ 			<div class="col-sm-6 float-left">R$ <?php echo $_salarioBruto; ?></div>
  		</div>
  		
  		<div class="row bg-info">
@@ -114,7 +114,7 @@
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">INSS: </div>
- 			<div class="col-sm-6 float-left"> R$ <?php echo $_SESSION['dados']['_inss']; ?></div>
+ 			<div class="col-sm-6 float-left"> R$ <?php echo $_inss; ?></div>
  		</div>
  		
  		<div class="row bg-info">
@@ -124,7 +124,7 @@
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Salário liquido: </div>
- 			<div class="col-sm-6 float-left"> R$ <?php echo $_SESSION['dados']['_salarioLiquido'];?></div>
+ 			<div class="col-sm-6 float-left"> R$ <?php echo $_salarioLiquido;?></div>
  		</div>
  		
  		<div class="row bg-info">
