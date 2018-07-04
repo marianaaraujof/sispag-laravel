@@ -23,7 +23,6 @@
  				<h3 class="text-center">Calculo salarial</h3> 
  			</div>
  			<div class="col-sm-4 bg-dark text-white">
- 				<a class="btn btn-outline-secondary btn-sm float-right" role="button" href="../session/destroySession.php"> Sair </a>
  			</div>
  			<div class="col-sm-4 bg-dark text-white">
  			</div>
@@ -44,7 +43,7 @@
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">CPF: </div>
- 			<div class="col-sm-6 float-left"><?php echo $_cpf; ?> </div>
+ 			<div class="col-sm-6 float-left"><?php echo $variaveis->_cpf; ?> </div>
  		</div>
  		
  		<div class="row bg-info">
@@ -54,7 +53,7 @@
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Funcionário:</div>
- 			<div class="col-sm-6 float-left"> <?php echo $_funcionario; ?> </div>
+ 			<div class="col-sm-6 float-left"> <?php echo $variaveis->_funcionario; ?> </div>
  		</div>
  		
  		<div class="row bg-info">
@@ -74,7 +73,7 @@
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Salário base:</div>
- 			<div class="col-sm-6 float-left"> R$ <?php echo $_salariobase;?> </div>
+ 			<div class="col-sm-6 float-left"> R$ <?php echo $variaveis->_salariobase;?> </div>
  		</div>
  		
  		<div class="row bg-info">
@@ -84,7 +83,7 @@
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Salário família: </div>
- 			<div class="col-sm-6 float-left"> R$ <?php echo $_salarioFamilia; ?></div>
+ 			<div class="col-sm-6 float-left"> R$ <?php echo $_sfamilia; ?></div>
  		</div>
  		
  		<div class="row bg-info">
@@ -94,7 +93,7 @@
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Abono:</div>
- 			<div class="col-sm-6 float-left"> R$ <?php echo $_calculaAbono;  ?></div>
+ 			<div class="col-sm-6 float-left"> R$ <?php echo $_abono;  ?></div>
  		</div>
  		
  		<div class="row bg-info">
@@ -104,7 +103,7 @@
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Salário bruto:</div>
- 			<div class="col-sm-6 float-left">R$ <?php echo $_salarioBruto; ?></div>
+ 			<div class="col-sm-6 float-left">R$ <?php echo $_sbruto; ?></div>
  		</div>
  		
  		<div class="row bg-info">
@@ -124,7 +123,7 @@
  		<div class="row bg-info">
  			<div class="col-sm-4"></div>
  			<div class="col-sm-2 text-center">Salário liquido: </div>
- 			<div class="col-sm-6 float-left"> R$ <?php echo $_salarioLiquido;?></div>
+ 			<div class="col-sm-6 float-left"> R$ <?php echo $_sliquido;?></div>
  		</div>
  		
  		<div class="row bg-info">

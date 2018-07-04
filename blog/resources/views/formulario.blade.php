@@ -1,4 +1,4 @@
-{{csrf_field()}}
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -24,7 +24,7 @@
         <h3 class="text-center">Calculo salarial</h3> 
       </div>
       <div class="col-sm-4 bg-dark text-white">
-        <a class="btn btn-outline-secondary btn-sm float-right" role="button" href="../session/destroySession.php"> Sair </a>
+      
       </div>
     </div>
   </div>
@@ -37,8 +37,8 @@
   </div>
   
   <div class="container-fluid bg-info"> 
-    <form name="Folha de pagamento" method="POST" action="route('calculosalarial.index')">
-      
+    <form name="Folha de pagamento" method="POST" action="{{route('calculosalarial.index')}}">
+    {{csrf_field()}}
       <div class="row bg-info">
         <div class="col-sm"></div>
       </div> 
